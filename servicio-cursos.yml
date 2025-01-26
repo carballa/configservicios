@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/cursos?serverTimezone=UTC
+    url: jdbc:mariadb://172.22.47.56:3306/cursos?serverTimezone=UTC
     username: system
     password: manager
   jpa:
